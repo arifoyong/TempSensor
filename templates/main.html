@@ -1,0 +1,26 @@
+{% extends "_base.html" %}
+{% block content %}
+
+	<h3>Current temperature </h3>
+	<div class = "sensor-data">
+		<table class="Table">
+			<thead class="thead-inverse">
+				<tr>
+					<th width="150px"><strong>ID </strong> </th>
+					<th width="150px"><strong>Sensor </strong> </th>
+					<th width="100px"><strong>Value </strong> </th>
+					<th width="200px"><strong>Date </strong> </th>
+				</tr>
+			</thead>
+			
+			<tr>
+				<th width="150px" scope="row" id='data_id'>  </th>
+				<th width="150px" id='sensor'>   </th>
+				<th width="100px" id='sensor_value'>   </th>
+				<th width="200px" id='date'>   </th>
+			</tr>
+			
+		</table>
+	</div>
+
+{% endblock %}
